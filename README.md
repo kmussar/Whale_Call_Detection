@@ -64,6 +64,9 @@ The main goal of this model was to determine when whales are present in shipping
 Model Performance & Conclusions: 
 I chose the Naïve Bayes model as it had the highest scores of the two metrics I was most interested in. The model performed approximately the same on the test data as it did on the validation data which suggests that my model was not over or under-fitting. My scores and confusion matrix are below: 
 
+![table](Test_Scores.jpg)
+
+![confusion matrix](Test_Confusion_Matrix.jpg)
 Pros of the model: 
 •	Of the right whales present – predicted 93% of them
 •	When predicting there was not a whale present – correct 96% of the time
