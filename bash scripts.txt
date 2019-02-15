@@ -1,0 +1,13 @@
+for i in *.aiff ; do 
+    ffmpeg -i "$i" $(basename "${i/.aiff}").wav 
+done
+
+for i in *.aiff ; do 
+    sudo mv "$i"  /AIFF
+done
+
+for i in *.wav ; do 
+    sudo mv "$i"  /train/WAV
+done
+
+cd 'Documents/Metis/Project 3'
